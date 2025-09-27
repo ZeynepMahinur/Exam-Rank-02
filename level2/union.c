@@ -3,7 +3,6 @@
 int main(int argc, char *argv[])
 {
     int i;
-    int j;
     char lookup[256] = {0};
 
     if (argc == 3)
