@@ -37,3 +37,36 @@ int main(int argc, char *argv[])
 
     printf("%d", result);
 }
+
+
+/*#include <stdio.h>
+#include <stdlib.h>
+
+int pgcd(int a, int b)
+{
+    int temp;
+
+    while (b != 0)
+    {
+        temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return (a);
+}
+
+int main(int argc, char *argv[])
+{
+    if (argc != 3)
+    {
+        printf("\n");
+        return (0);
+    }
+
+    int i = 0;
+    int a = atoi(argv[1]);
+    int b = atoi(argv[2]);
+    if (a > 0 && b > 0)
+        printf("%d", pgcd(a, b));
+    printf("\n");
+}*/

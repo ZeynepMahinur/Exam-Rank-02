@@ -25,5 +25,5 @@ char	*ft_strpbrk(const char *s1, const char *s2)
 
 int main()
 {
-    printf("%s", ft_strpbrk("abc", "b"));
+    printf("%s", ft_strpbrk("abc", "a"));
 }
